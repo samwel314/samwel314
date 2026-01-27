@@ -1,71 +1,128 @@
-## Hi there 👋
+# Samuel Marzouk 👋
 
-# 👋 Hi, I'm Samwel Marzouk
+[![dotnet](https://img.shields.io/badge/.NET-10-512BD4?style=flat-square&logo=.net&logoColor=white)](https://dotnet.microsoft.com/)
+[![github](https://img.shields.io/badge/GitHub-samwel314-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/samwel314)
+[![linkedin](https://img.shields.io/badge/LinkedIn-Samwel_Marzouk-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuel-marzouk-0a815821a/)
+[![email](https://img.shields.io/badge/Email-samwelmarzouk3%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:samwelmarzouk3@gmail.com)
 
-### Junior Backend .NET Developer | ASP.NET Core | EF Core | Clean Architecture
-
----
-
-## ⚡ About Me
-I am a **Backend Developer** with a focus on building **secure, scalable, and maintainable APIs**.  
-I enjoy designing systems using **Clean Architecture** and implementing **fine-grained access control** with claims and resource-based authorization.  
-I also like to share my knowledge through **technical posts** explaining backend patterns in simple terms.
+Junior Backend .NET Developer — ASP.NET Core | EF Core | Clean Architecture
 
 ---
 
-## 🔧 Key Skills
-- C#, ASP.NET Core, .NET 10  
-- Minimal APIs, RESTful API design  
-- Dapper & Entity Framework Core & SQL Server  
-- Identity, JWT Authentication, Claims & Resource-based Authorization  
-- Clean Architecture, Separation of Concerns, Testable Code  
-- Secure coding practices (IDOR prevention, access control)  
-- Concepts & Design Principles : Object-Oriented Programming (OOP) principles
-- Real-time Applications : SignalR, real-time communication 
+Contents
+- [About Me](#about-me)
+- [Tech & Tools](#tech--tools)
+- [Featured Projects](#featured-projects)
+- [Example: Minimal API usage](#example-minimal-api-usage)
+- [Contact](#contact)
+- [Contributing & License](#contributing--license)
 
+---
 
-## 🏆 Featured Projects
+## About Me
+I build secure, scalable, and maintainable backend APIs using Clean Architecture and modern .NET.  
+I focus on clear separation of concerns, testability, and fine-grained access control (claims and resource-based authorization). I like sharing what I learn through short technical posts and examples.
 
-### 1️⃣ Invoice Management System
-**A multi-branch invoice platform for stores and clients.**  
-- **Purpose:** Allows clients to submit invoices while employees manage them within their branch.  
-- **Features:**  
-  - Admin manages branches, users, and employees  
-  - Employees can only access invoices for their assigned branch  
-  - Clients can track the status of their invoices  
-  - Secure and maintainable backend  
-- **Tech Stack:** ASP.NET Core, EF Core, SQL Server, Identity  
+Value highlights:
+- Building APIs with security-first mindset (IDOR prevention, claims/resource auth)
+- Designing maintainable systems using Clean Architecture
+- Practical experience with EF Core, Dapper, and SQL Server
+- Familiar with real-time features using SignalR
 
-### 2️⃣ Book E-commerce System
-**Full-stack online bookstore for users and admins.**  
-- **Purpose:** Sell books online with user-friendly shopping and admin management.  
-- **Features:**  
-  - Admin dashboard for book and order management  
-  - Shopping cart and checkout with Stripe integration  
-  - Role-based access control for admins and users  
-- **Tech Stack:** ASP.NET Core MVC, EF Core, SQL Server, Bootstrap  
+---
 
-### 3️⃣ Travel Linker Platform
-**Enterprise platform for hotels and transport companies.**  
-- **Purpose:** Provide companies a dashboard to manage rooms, trips, and schedules.  
-- **Features:**  
-  - Admin can manage all services, employees, and schedules  
-  - Employees access only the entities they are assigned to  
-  - REST API backend for mobile and web apps  
-- **Tech Stack:** ASP.NET Core, EF Core, JWT Authentication  
+## Tech & Tools
+- Language / Platform: C#, ASP.NET Core (.NET 10)
+- API styles: Minimal APIs, RESTful APIs
+- Data access: EF Core, Dapper, SQL Server
+- Auth & Security: ASP.NET Identity, JWT, Claims-based & resource-based authorization
+- Architecture: Clean Architecture, Separation of Concerns, Testable code
+- Real-time: SignalR
+- Other: Stripe integration (payments), Bootstrap (front-end for admin dashboards)
 
-### 4️⃣ ToDo List – Minimal API
-**Simple and clean task management API.**  
-- **Purpose:** Manage personal tasks with CRUD operations.  
-- **Features:**  
-  - Register, login, and manage personal tasks  
-  - Lightweight and easy-to-use API  
-  - Focused on maintainability and clean architecture  
-- **Tech Stack:** .NET 8 Minimal API, EF Core, SQL Server
+---
 
+## Featured Projects
 
-## 📫 Contact
-- Email: samwelmarzouk3@gmail.com
-- LinkedIn: https://www.linkedin.com/in/samuel-marzouk-0a815821a/ 
+### 1) Invoice Management System
+A multi-branch invoice platform for stores and clients.
+- Purpose: Clients submit invoices; employees manage invoices for their branch.
+- Key features:
+  - Admin manages branches, users, employees
+  - Branch-level access control — employees only see their branch data
+  - Clients can track invoice status
+- Tech: ASP.NET Core, EF Core, SQL Server, Identity
+- Repo / Demo: (add link)
 
+### 2) Book E-commerce System
+Full-stack online bookstore for users and admins.
+- Purpose: Sell books online with shopping and admin management
+- Key features:
+  - Admin dashboard for books and orders
+  - Shopping cart and Stripe-powered checkout
+  - Role-based access control
+- Tech: ASP.NET Core MVC, EF Core, SQL Server, Bootstrap
+- Repo / Demo: (add link)
 
+### 3) Travel Linker Platform
+Enterprise platform for hotels and transport companies.
+- Purpose: Dashboard for companies to manage rooms, trips, schedules
+- Key features:
+  - Admin manages services, employees, schedules
+  - Employees access only assigned entities
+  - REST API backend for mobile/web clients
+- Tech: ASP.NET Core, EF Core, JWT Authentication
+- Repo / Demo: (add link)
+
+### 4) ToDo List — Minimal API
+Lightweight task management API built with Minimal APIs and Clean Architecture.
+- Purpose: Personal tasks CRUD with authentication
+- Key features:
+  - Register, login, manage personal tasks
+  - Minimal, testable, maintainable code
+- Tech: .NET 10 Minimal API, EF Core, SQL Server
+- Repo / Demo: (add link)
+
+If you want, I can add direct repository links and demos for each project (just provide URLs or confirm repo names).
+
+---
+
+## Example: Minimal API usage (register / login)
+Below is a short curl example showing how a Minimal API might expose register/login endpoints.
+
+Register:
+```bash
+curl -X POST https://api.example.com/auth/register \
+  -H "Content-Type: application/json" \
+  -d '{"email":"you@example.com","password":"P@ssw0rd!"}'
+```
+
+Login:
+```bash
+curl -X POST https://api.example.com/auth/login \
+  -H "Content-Type: application/json" \
+  -d '{"email":"you@example.com","password":"P@ssw0rd!"}'
+```
+
+Response (example):
+```json
+{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "expiresIn": 3600
+}
+```
+
+---
+
+## Contact
+- Email: [samwelmarzouk3@gmail.com](mailto:samwelmarzouk3@gmail.com)  
+- LinkedIn: [Samuel Marzouk](https://www.linkedin.com/in/samuel-marzouk-0a815821a/)  
+- GitHub: [github.com/samwel314](https://github.com/samwel314)
+
+---
+
+## Contributing & License
+- License: (add license file or statement here, e.g., MIT)
+- Contributing: If you'd like help adding repo links, demos, or a license, I can prepare a PR with those updates.
+
+---
