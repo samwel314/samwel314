@@ -67,8 +67,8 @@ A multi-branch invoice platform for stores and clients.
   - Admin manages branches, users, employees  
   - Branch-level access control — employees only see their branch data  
   - Clients can track invoice status  
-- **Tech:** ASP.NET Core, EF Core, SQL Server, Identity  
-- **Repo : https://github.com/samwel314/Points-Management-System
+- **Tech :** ASP.NET Core, EF Core, SQL Server, Identity  
+- **Repo :** https://github.com/samwel314/Points-Management-System
 
 ### 2) Book E-commerce System
 Full-stack online bookstore for users and admins.  
@@ -77,8 +77,8 @@ Full-stack online bookstore for users and admins.
   - Admin dashboard for books and orders  
   - Shopping cart and Stripe-powered checkout  
   - Role-based access control  
-- **Tech:** ASP.NET Core MVC, EF Core, SQL Server, Bootstrap  
-- **Repo : https://github.com/samwel314/Book-Store
+- **Tech :** ASP.NET Core MVC, EF Core, SQL Server, Bootstrap  
+- **Repo :** https://github.com/samwel314/Book-Store
 
 ### 3) Travel Linker Platform
 Enterprise platform for hotels and transport companies.  
@@ -87,8 +87,8 @@ Enterprise platform for hotels and transport companies.
   - Admin manages services, employees, schedules  
   - Employees access only assigned entities  
   - REST API backend for mobile/web clients  
-- **Tech:** ASP.NET Core, EF Core, JWT Authentication  
-- **Repo : https://github.com/samwel314/GraduationProject
+- **Tech :** ASP.NET Core, EF Core, JWT Authentication  
+- **Repo :** https://github.com/samwel314/GraduationProject
 
 ### 4) ToDo List — Minimal API
 Lightweight task management API built with Minimal APIs and Clean Architecture.  
@@ -96,8 +96,8 @@ Lightweight task management API built with Minimal APIs and Clean Architecture.
 - **Key features:**  
   - Register, login, manage personal tasks  
   - Minimal, testable, maintainable code  
-- **Tech:** .NET 10 Minimal API, EF Core, SQL Server  
-- **Repo : https://github.com/samwel314/todo-list-app
+- **Tech :** .NET 10 Minimal API, EF Core, SQL Server  
+- **Repo :** https://github.com/samwel314/todo-list-app
 
 ## Contact
 
