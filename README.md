@@ -20,15 +20,22 @@
 Junior Backend .NET Developer — ASP.NET Core | EF Core | Clean Architecture
 
 ## About Me
-I build secure, scalable, and maintainable backend APIs using Clean Architecture and modern .NET.  
 
-I focus on clear separation of concerns, testability, and fine-grained access control (claims and resource-based authorization). I like sharing what I learn through short technical posts and examples.  
+I’m a backend developer who builds **scalable and maintainable APIs** using **modern .NET** and **Clean Architecture**.
 
-**Value highlights:**
-- Building APIs with security-first mindset (IDOR prevention, claims/resource auth)
-- Designing maintainable systems using Clean Architecture
-- Practical experience with EF Core, Dapper, and SQL Server
-- Familiar with real-time features using SignalR
+I focus on writing clean, testable code with a clear separation of concerns, and designing systems that handle **real-world backend challenges** such as data consistency, authorization, and performance.
+
+I have hands-on experience building APIs using **EF Core, Dapper, and SQL Server**, and I’m familiar with adding **real-time features using SignalR**.  
+Security and authorization are areas I pay close attention to, especially when designing access control in multi-user systems.
+
+I enjoy sharing what I learn through **short technical posts** and practical examples based on real projects.
+
+**What I bring to the table:**
+- Backend API development with ASP.NET Core
+- Clean Architecture and maintainable system design
+- Practical database work (EF Core, Dapper, SQL Server)
+- Thoughtful authorization design as part of real-world systems
+- Familiarity with real-time features using SignalR
 
 ## Tech & Tools
 
