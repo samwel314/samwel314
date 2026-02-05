@@ -22,7 +22,7 @@ Backend Engineer (.NET Core) — ASP.NET Core | EF Core | Clean Architecture
 
 ## About Me
 
-I’m a backend developer who builds **scalable and maintainable APIs** using **modern .NET** and **Clean Architecture**.
+I’m a backend engineer who builds **scalable and maintainable APIs** using **modern .NET** and **Clean Architecture**.
 
 I focus on writing clean, testable code with a clear separation of concerns, and designing systems that handle **real-world backend challenges** such as data consistency, authorization, and performance.
 
