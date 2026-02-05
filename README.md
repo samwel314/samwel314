@@ -17,7 +17,8 @@
 [![linkedin](https://img.shields.io/badge/LinkedIn-Samuel_Marzouk-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/samuel-marzouk-0a815821a/) 
 [![email](https://img.shields.io/badge/Email-samwelmarzouk3%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:samwelmarzouk3@gmail.com)  
 
-Junior Backend .NET Developer — ASP.NET Core | EF Core | Clean Architecture
+
+Backend Engineer (.NET Core) — ASP.NET Core | EF Core | Clean Architecture
 
 ## About Me
 
