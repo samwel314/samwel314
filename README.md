@@ -72,7 +72,7 @@ Clean Architecture | DTOs | Service Layer Separation
   - Admin manages stores, users, employees  
   - Clients track invoice status  
 - **Tech:** ASP.NET Core, EF Core, SQL Server, Identity  
-- **Live Demo:** [[Points-Management-System]http://robiy.runasp.net/  
+- **Live Demo:** [[Points-Management-System] http://points.tryasp.net/
 
 ---
 
