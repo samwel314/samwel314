@@ -71,7 +71,8 @@ Clean Architecture | DTOs | Service Layer Separation
   - Branch-level access control (IDOR prevention)  
   - Admin manages stores, users, employees  
   - Clients track invoice status  
-- **Tech:** ASP.NET Core, EF Core, SQL Server, Identity  
+- **Tech:** ASP.NET Core, EF Core, SQL Server, Identity
+-  **Repo:** [ Invoice Management System](https://github.com/samwel314/Points-Management-System.git)
 - **Live Demo:** [[Points-Management-System] http://points.tryasp.net/
 
 ---
@@ -96,7 +97,7 @@ Clean Architecture | DTOs | Service Layer Separation
   - Employees see only assigned entities (claims-based access)  
   - REST API backend for mobile/web clients  
 - **Tech:** ASP.NET Core, EF Core, JWT Authentication  
-- **Repo:** [GraduationProject](https://github.com/samwel314/GraduationProject)  
+- **Repo:** [travel-linkert](https://github.com/samwel314/travel-linker)  
 
 ---
 
