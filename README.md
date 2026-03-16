@@ -97,7 +97,7 @@ Clean Architecture | DTOs | Service Layer Separation
   - Employees see only assigned entities (claims-based access)  
   - REST API backend for mobile/web clients  
 - **Tech:** ASP.NET Core, EF Core, JWT Authentication  
-- **Repo:** [travel-linkert](https://github.com/samwel314/travel-linker)  
+- **Repo:** [travel-linker](https://github.com/samwel314/travel-linker)  
 
 ---
 
